@@ -10,14 +10,10 @@ const obj:user = {
     enrollNo: 1
 }
 
-function abcd(object:user){
-    if(object === obj) {
-        console.log("Same objects");
-        
-    }
+function abc(object:user){
 }
 
-abcd({
+abc({
     name:"Hello",
     password: "new",
     enrollNo: 1
