@@ -1,8 +1,15 @@
-var obj = {
+let obj = {
     name: "Hello",
     password: "new",
     enrollNo: 1
 };
-console.log(obj.name);
-console.log(obj.password);
-console.log(obj.enrollNo);
+function abcd(object) {
+    if (object === obj) {
+        console.log("Same objects");
+    }
+}
+abcd({
+    name: "Hello",
+    password: "new",
+    enrollNo: 1
+});
